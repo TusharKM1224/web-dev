@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
+</head>
+<body>
+    <div class="Title">
+        <h2>Escape to </h2>
+        <h2>Gokarna: </h2>
+        <h1>A Journey to </h1> 
+        <h1>Serinity</h1>
+        <div class="lets" id="Itinerary">
+            <p>
+                Itinerary</p>
+            <div class="arrow">
+            </div>
+        </div>
+    </div>
+   
+    <script>
+        document.getElementById("Itinerary").addEventListener("click",function(){
+            window.location.href="Day1.html"
+        })
+    </script>
+    
+</body>
+</html>
